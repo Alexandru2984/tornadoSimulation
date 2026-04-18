@@ -1,0 +1,44 @@
+# Build artifacts
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# CMake FetchContent/deps
+/_deps/
+/glad-*/
+/glfw-*/
+/glm-*/
+
+# Compiled binaries
+/tornado
+*.exe
+*.out
+*.obj
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+
+# IDE/editor files
+*.user
+*.suo
+*.vcxproj*
+*.DS_Store
+*.vscode/
+*.idea/
+*.swp
+*~
+
+# Logs
+*.log
+
+# Generated assets
+/assets/models/*.gltf
+/assets/models/*.bin
+
+# Ignore by default, but keep shaders and source
+!shaders/
+!src/
